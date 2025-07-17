@@ -1,6 +1,3 @@
-# supply-chain-analytics-portfolio
-Personal portfolio of supply chain models built with Excel and Solver during my university course at Hofstra University, New York. All files created by me.
-
 # 📦 Supply Chain Analytics Portfolio
 
 **Author:** Belén Llatas Beny  
