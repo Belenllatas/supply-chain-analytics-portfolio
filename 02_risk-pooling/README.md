@@ -1,37 +1,58 @@
-# 📦 Risk Pooling – Inventory Optimization
+# 📦 Risk Pooling – Inventory Optimization for Multinational Distribution
 
-This project explores the concept of **risk pooling** in inventory management, using Excel to compare decentralized and centralized stocking strategies under demand uncertainty.
+This project analyzes the benefits of **risk pooling** in a multinational distribution context, using Excel to compare safety inventory requirements in decentralized and centralized systems.
 
 ## 🗂️ Context
 
-The model simulates two warehouse configurations:  
-1. **Multiple warehouses**, each serving local demand independently.  
-2. A **centralized warehouse**, pooling demand across all regions.
+The model is based on a classroom quiz from the Supply Chain Management course at **Hofstra University (New York, USA)**. The case simulates **Epson's printer distribution strategy in Europe**, where weekly demand varies by country and is uncertain.
 
-Developed during the **Supply Chain Management** course at **Hofstra University (New York, USA)**, this model demonstrates how centralization reduces safety stock while maintaining the same service level.
+Currently, Epson manufactures printers in **Taiwan** and ships them to Europe with a **lead time of 8 weeks**. Each printer is assembled and packed specifically for the destination country, with localized power supplies and manuals.
 
-🧾 The demand data and initial conditions were provided as part of the in-class case titled *"Risk Pooling (Inventory Consolidation)"*.
+Epson is considering a new strategy: building a **centralized European Distribution Center (DC)**. The idea is to ship **base printers** (without power supply or manuals) from Taiwan to the DC. Once an order is received, the DC would customize the units and deliver them to the appropriate country.
+
+The project compares these two configurations:
+
+- **Decentralized model**: 6 countries are served independently.
+- **Centralized model**: a single DC pools demand across Europe.
+
+> 📚 The scenario is adapted from *Quiz 4 – Risk Pooling* by Prof. Ping Su.
 
 ## 🎯 Objective
 
-To calculate and compare the total inventory required to meet a 95% service level in both decentralized and centralized systems, and to **quantify the inventory savings** enabled by risk pooling.
+- Calculate the total **safety inventory** required across six countries with 8-week lead time and 95% service level.
+- Evaluate the impact of **centralizing** inventory at a single DC.
+- Quantify the **inventory savings** achieved through risk pooling.
+
+## 📈 Input Data
+
+| Country   | Mean Demand | Standard Deviation |
+|-----------|-------------|--------------------|
+| France    | 3,000       | 2,000              |
+| Germany   | 4,000       | 2,200              |
+| Spain     | 2,000       | 1,400              |
+| Italy     | 2,500       | 1,600              |
+| Portugal  | 1,000       | 800                |
+| UK        | 4,000       | 2,400              |
+
+- Lead time from Taiwan: **8 weeks**
+- Target service level: **95%**
 
 ## 🧠 Key Concepts
 
 - Risk pooling  
-- Normal distribution  
-- Service level (95%)  
 - Safety stock  
-- Standard deviation of aggregated demand
+- Service level and z-score  
+- Demand aggregation  
+- Normal distribution
 
 ## 🛠️ Tools Used
 
 - Microsoft Excel  
-- Statistical functions (NORM.INV, SQRT, etc.)
+- Statistical functions (`NORM.INV`, `SQRT`, etc.)
 
 ## 📁 Files Included
 
-- `02_risk-pooling.xlsx`: comparison model showing inventory requirements, service levels, and efficiency gains through centralization.
+- `02_risk-pooling.xlsx`: Spreadsheet comparing decentralized and centralized safety stock levels with full demand data and analysis.
 
 ## 👩‍💻 Author
 
@@ -44,6 +65,7 @@ Belén Llatas Beny
 
 ### 📝 Note for Spanish-speaking recruiters 🇪🇸
 
-Este proyecto fue desarrollado como parte de mis estudios en Supply Chain Management en la Hofstra University (Nueva York).  
-Los datos fueron proporcionados durante una clase práctica sobre consolidación de inventarios y reducción de stock mediante centralización.  
-Si necesitas una explicación en español o el archivo traducido, puedes escribirme sin problema.
+Este proyecto fue desarrollado como parte del curso de Supply Chain Management en Hofstra University (Nueva York).  
+Analiza cómo Epson puede reducir su inventario de seguridad consolidando la distribución de impresoras en Europa.  
+El caso original plantea un plazo de entrega de 8 semanas desde la fábrica en Taiwán, y compara la estrategia actual (con montaje local en cada país) con una alternativa centralizada en un DC europeo.  
+Si deseas una explicación más detallada o el archivo en español, estaré encantada de ayudarte.
