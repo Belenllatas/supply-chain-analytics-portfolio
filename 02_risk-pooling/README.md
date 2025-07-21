@@ -7,13 +7,13 @@ It includes two models developed during the Supply Chain Management course at **
 
 ## 🧠 What’s Included
 
-- `02_risk-pooling_epso_case.xlsx` → 📄 Real-world scenario (Epson printer case – Quiz 4)  
+- `02_risk-pooling_epson_case.xlsx` → 📄 Real-world scenario (Epson printer case – Quiz 4)  
 - `02_risk-pooling_class_model.xlsx` → 📊 Simplified class exercise (fictional demand)  
 
 ---
 
 ## 🖨️ Case 1: Epson Risk Pooling – Quiz 4  
-**File:** `02_risk-pooling_epso_case.xlsx`
+**File:** `02_risk-pooling_epson_case.xlsx`
 
 Epson manufactures printers in **Taiwan** and sells them in six European countries.  
 Currently, it assembles and packages printers **separately for each country**, which leads to higher inventory levels.
