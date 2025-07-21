@@ -1,71 +1,99 @@
-# 📦 Risk Pooling – Inventory Optimization for Multinational Distribution
+# 📦 Risk Pooling – Inventory Optimization in Supply Chains
 
-This project analyzes the benefits of **risk pooling** in a multinational distribution context, using Excel to compare safety inventory requirements in decentralized and centralized systems.
+This project explores how centralized distribution can reduce inventory costs through **risk pooling**.  
+It includes two models developed during the Supply Chain Management course at **Hofstra University (New York, USA)**.
 
-## 🗂️ Context
+---
 
-The model is based on a classroom quiz from the Supply Chain Management course at **Hofstra University (New York, USA)**. The case simulates **Epson's printer distribution strategy in Europe**, where weekly demand varies by country and is uncertain.
+## 🧠 What’s Included
 
-Currently, Epson manufactures printers in **Taiwan** and ships them to Europe with a **lead time of 8 weeks**. Each printer is assembled and packed specifically for the destination country, with localized power supplies and manuals.
+- `02_risk-pooling_epso_case.xlsx` → 📄 Real-world scenario (Epson printer case – Quiz 4)  
+- `02_risk-pooling_class_model.xlsx` → 📊 Simplified class exercise (fictional demand)  
 
-Epson is considering a new strategy: building a **centralized European Distribution Center (DC)**. The idea is to ship **base printers** (without power supply or manuals) from Taiwan to the DC. Once an order is received, the DC would customize the units and deliver them to the appropriate country.
+---
 
-The project compares these two configurations:
+## 🖨️ Case 1: Epson Risk Pooling – Quiz 4  
+**File:** `02_risk-pooling_epso_case.xlsx`
 
-- **Decentralized model**: 6 countries are served independently.
-- **Centralized model**: a single DC pools demand across Europe.
+Epson manufactures printers in **Taiwan** and sells them in six European countries.  
+Currently, it assembles and packages printers **separately for each country**, which leads to higher inventory levels.
 
-> 📚 The scenario is adapted from *Quiz 4 – Risk Pooling* by Prof. Ping Su.
+To reduce excess inventory, Epson is considering a **centralized Distribution Center (DC)** in Europe.  
+In this new model, **base printers** (without power supplies or manuals) would be shipped from Taiwan  
+with a **lead time of 8 weeks**, then customized and delivered on demand.
 
-## 🎯 Objective
+### 📊 Input Data (Weekly Demand):
 
-- Calculate the total **safety inventory** required across six countries with 8-week lead time and 95% service level.
-- Evaluate the impact of **centralizing** inventory at a single DC.
-- Quantify the **inventory savings** achieved through risk pooling.
+| Country   | Mean Demand | Std. Deviation |
+|-----------|-------------|----------------|
+| France    | 3,000       | 2,000          |
+| Germany   | 4,000       | 2,200          |
+| Spain     | 2,000       | 1,400          |
+| Italy     | 2,500       | 1,600          |
+| Portugal  | 1,000       | 800            |
+| UK        | 4,000       | 2,400          |
 
-## 📈 Input Data
+- Lead time: **8 weeks**  
+- Target service level: **95%** (z = 1.645)
 
-| Country   | Mean Demand | Standard Deviation |
-|-----------|-------------|--------------------|
-| France    | 3,000       | 2,000              |
-| Germany   | 4,000       | 2,200              |
-| Spain     | 2,000       | 1,400              |
-| Italy     | 2,500       | 1,600              |
-| Portugal  | 1,000       | 800                |
-| UK        | 4,000       | 2,400              |
+### ❓ Problem Statement
 
-- Lead time from Taiwan: **8 weeks**
-- Target service level: **95%**
+> a. How much **safety inventory** does Epson need under the current decentralized model?  
+> b. How much inventory could Epson save by moving to a **centralized European DC**?
 
-## 🧠 Key Concepts
+📚 Based on *Quiz 4 – Risk Pooling* by Prof. Ping Su
+
+---
+
+## 📊 Case 2: Class Exercise – Centralization Logic  
+**File:** `02_risk-pooling_class_model.xlsx`
+
+This spreadsheet demonstrates the core logic of risk pooling using **fictional demand data** across three independent regions.
+
+### Example Input:
+
+| Region   | Weekly Mean Demand | Std. Deviation |
+|----------|--------------------|----------------|
+| East     | 1,000              | 400            |
+| Central  | 800                | 300            |
+| West     | 1,200              | 500            |
+
+It compares the total **safety stock** in:
+
+- A **decentralized** system (each region holds its own safety inventory)  
+- A **centralized** system (all demand is pooled into one location)
+
+---
+
+## 🎯 Learning Objectives
+
+- Understand the concept of **demand aggregation**
+- Apply the formula for **safety stock** in normal distributions
+- Quantify the effect of centralizing inventory across multiple markets
+
+---
+
+## 🔍 Key Concepts
 
 - Risk pooling  
+- Inventory centralization  
 - Safety stock  
-- Service level and z-score  
-- Demand aggregation  
-- Normal distribution
+- Normal distribution  
+- Z-score (`NORM.INV`)  
+- Demand variability
 
-## 🛠️ Tools Used
-
-- Microsoft Excel  
-- Statistical functions (`NORM.INV`, `SQRT`, etc.)
-
-## 📁 Files Included
-
-- `02_risk-pooling.xlsx`: Spreadsheet comparing decentralized and centralized safety stock levels with full demand data and analysis.
+---
 
 ## 👩‍💻 Author
 
 Belén Llatas Beny  
 📍 Valencia, Spain  
 📧 belenllatas1@gmail.com  
-🔗 [Back to portfolio](../README.md)
+🔗 [www.linkedin.com/in/belénllatasbeny](https://www.linkedin.com/in/belénllatasbeny)
 
 ---
 
-### 📝 Note for Spanish-speaking recruiters 🇪🇸
+## 🌍 Language & Availability
 
-Este proyecto fue desarrollado como parte del curso de Supply Chain Management en Hofstra University (Nueva York).  
-Analiza cómo Epson puede reducir su inventario de seguridad consolidando la distribución de impresoras en Europa.  
-El caso original plantea un plazo de entrega de 8 semanas desde la fábrica en Taiwán, y compara la estrategia actual (con montaje local en cada país) con una alternativa centralizada en un DC europeo.  
-Si deseas una explicación más detallada o el archivo en español, estaré encantada de ayudarte.
+This project was developed in English for academic and professional use.  
+However, I’m fully available to explain the logic, formulas, and results in **Spanish**, and I can provide translated materials upon request — especially useful for roles in Spanish-speaking companies or international teams.
