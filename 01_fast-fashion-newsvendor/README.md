@@ -40,11 +40,7 @@ Belén Llatas Beny
 
 ---
 
-### 📝 Note for Spanish-speaking recruiters 🇪🇸
+## 🌍 Language & Availability
 
-Este proyecto fue desarrollado como parte de mis estudios en Supply Chain Management en la Hofstra University (Nueva York).  
-Los datos están adaptados de la presentación “Chapter 13 – Manage Fast Fashion”, proporcionada por la profesora Ping Su.  
-Si necesitas una explicación en español o los archivos traducidos, no dudes en escribirme.
-
-
-
+This project was developed in English for academic and professional use.  
+However, I’m fully available to explain the logic, formulas, and results in **Spanish**, and I can provide translated materials upon request — especially useful for roles in Spanish-speaking companies or international teams.
