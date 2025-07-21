@@ -1,62 +1,90 @@
-# 📦 Supply Chain Analytics Portfolio
+# 💼 Supply Chain Analytics Portfolio
 
 **Author:** Belén Llatas Beny  
-**Tools:** Excel, Solver  
+**Tools:** Excel + Solver  
 **Course:** Supply Chain Management – Hofstra University (New York, USA)
 
 ---
 
-## 📘 Overview / Resumen
+## 🧾 Overview / Resumen
 
-This portfolio includes real-world case studies and optimization models developed during my undergraduate training in the course *Supply Chain Management* at Hofstra University (New York, USA).
+This portfolio includes real-world case studies and optimization models developed during my studies in **Supply Chain Management** at **Hofstra University (New York, USA)**.
 
-Each project replicates a business decision scenario involving production, logistics, or distribution, solved using Excel and Solver.
+Each project replicates a decision-making scenario related to production, inventory, transportation, or facility location — solved using **Excel and Solver**.
 
-Este repositorio reúne modelos y casos prácticos desarrollados durante mis estudios en la asignatura *Supply Chain Management* en Hofstra University (Nueva York, Estados Unidos).
-
-Cada proyecto simula una situación real de decisión empresarial relacionada con producción, logística o distribución, resuelta con Excel y Solver.
+> Este repositorio reúne modelos y casos prácticos desarrollados durante mis estudios en Hofstra.  
+> Todos los archivos están en inglés, pero puedo explicarlos en español si lo necesitas.
 
 ---
 
-## 🧠 Skills Demonstrated / Habilidades demostradas
+## 📈 Skills Demonstrated / Habilidades aplicadas
 
 - Inventory optimization under uncertainty  
-- Network design and facility location  
-- Cost minimization using Solver  
 - Risk pooling and safety stock analysis  
-- Transportation modeling  
-- Strategic thinking in supply chain scenarios
+- Transportation cost minimization  
+- Facility location and fixed-cost tradeoffs  
+- Binary and linear optimization with Solver  
+- Strategic thinking in supply chain planning
 
 ---
 
 ## 📂 Project Index / Índice de proyectos
 
-| # | Project (EN)                                 | Proyecto (ES)                                        |
-|---|----------------------------------------------|------------------------------------------------------|
-| 1 | Newsvendor Model – Fast Fashion              | Modelo Newsvendor aplicado al sector moda           |
-| 2 | Risk Pooling Strategy                        | Estrategias de agrupación de riesgo                  |
-| 3 | Epson Centralized Inventory Case             | Caso Epson: Ahorro por centralización de stock      |
-| 4 | Transportation Network Optimization          | Optimización de red de transporte                   |
-| 5 | Facility Optimization with Fixed Costs       | Optimización de plantas con costes fijos            |
-| 6 | DryIce Factory Location Problem              | Decisión de localización de fábricas: caso DryIce   |
+| Nº | Folder | Project (EN) | Proyecto (ES) |
+|----|--------|---------------|----------------|
+| 01 | `01_fast-fashion-newsvendor/` | Newsvendor Model – Fast Fashion | Modelo Newsvendor aplicado a moda |
+| 02 | `02_risk-pooling/` | Risk Pooling Strategy | Estrategias de agrupación de stock |
+| 03 | `03_transportation-location-models/` | Transportation Network Optimization | Optimización de red de transporte |
+| 04 | `04_factory-location-dryice/` | DryIce Factory Location Problem | Localización de fábricas: caso DryIce |
+
+> 📁 Each project is organized in its own folder with prefix `01_`, `02_`, etc.
 
 ---
 
-## 🗂 Folder Structure / Estructura de carpetas
+## 📘 Folder Structure / Estructura de carpetas
 
 Each folder contains:
 
-- A README.md file with a summary of the problem and approach.
-- The Excel file with formulas, Solver setup and results.
+- 📄 `README.md` – Summary of the problem and approach  
+- 📊 `.xlsx` – Excel file with Solver model and results  
+- 📑 `.pdf` – Original problem statement (if available)
 
-Cada carpeta contiene:
+Cada carpeta incluye:
 
-- Un archivo README.md con un resumen del problema y el enfoque.
-- El archivo Excel con fórmulas, configuración de Solver y resultados.
+- 📄 Un `README.md` con resumen y planteamiento  
+- 📊 Un Excel con fórmulas y Solver configurado  
+- 📑 Un PDF con el enunciado original (si aplica)
 
 ---
 
-## 📬 Contact
+## 👩‍💻 About Me
+
+**Belén Llatas Beny** – Logistics & Analytics Enthusiast  
+🌍 Location: Valencia, Spain  
+✉️ Email: belenllatas1@gmail.com  
+🔗 LinkedIn: [www.linkedin.com/in/belénllatasbeny](https://www.linkedin.com/in/belénllatasbeny)
+
+This portfolio is part of my goal to build a **hybrid logistics-finance profile**, combining technical knowledge with international experience.
+
+---
+
+## 🛠️ Tools & Concepts
+
+- Excel Solver (Linear, Integer, Binary)  
+- Newsvendor and inventory models  
+- Risk pooling and centralization  
+- Transportation optimization  
+- Facility location with fixed costs  
+- NORM.INV and Z-score for uncertainty modeling
+
+---
+
+## 📌 Disclaimer
+
+All projects were completed by me as part of my academic training.  
+Attributions to professors and institutions are included where needed.  
+This content is published for educational and professional demonstration purposes.
+
 
 You can reach me at: **belenllatas1@gmail.com** 
 Or visit my LinkedIn profile: **www.linkedin.com/in/belénllatasbeny**
