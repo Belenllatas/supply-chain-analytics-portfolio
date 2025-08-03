@@ -1,4 +1,4 @@
-# 💼 Supply Chain Analytics Portfolio
+# 💼 Supply Chain Management Portfolio
 
 **Author:** Belén Llatas Beny  
 **Tools:** Excel + Solver  
