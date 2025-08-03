@@ -89,7 +89,7 @@ It compares the total **safety stock** in:
 Belén Llatas Beny  
 📍 Valencia, Spain  
 📧 belenllatas1@gmail.com  
-🔗 [www.linkedin.com/in/belénllatasbeny](https://www.linkedin.com/in/belénllatasbeny)
+🔗 [www.linkedin.com/in/belenllatasbeny](https://www.linkedin.com/in/belenllatasbeny)
 
 ---
 
