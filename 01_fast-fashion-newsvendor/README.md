@@ -36,7 +36,7 @@ The goal is to **maximize expected profit** while meeting service level targets.
 Belén Llatas Beny  
 📍 Valencia, Spain  
 📧 belenllatas1@gmail.com  
-🔗 [Back to portfolio](../README.md)
+🔗 [www.linkedin.com/in/belenllatasbeny](https://www.linkedin.com/in/belenllatasbeny)
 
 ---
 
