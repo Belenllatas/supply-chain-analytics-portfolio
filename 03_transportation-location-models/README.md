@@ -85,7 +85,7 @@ This is a **more advanced model**, where the company must decide:
 Belén Llatas Beny  
 📍 Valencia, Spain  
 📧 belenllatas1@gmail.com  
-🔗 [www.linkedin.com/in/belénllatasbeny](https://www.linkedin.com/in/belénllatasbeny)
+🔗 [www.linkedin.com/in/belenllatasbeny](https://www.linkedin.com/in/belenllatasbeny)
 
 ---
 
