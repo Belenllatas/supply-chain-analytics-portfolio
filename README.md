@@ -62,7 +62,7 @@ Cada carpeta incluye:
 **Belén Llatas Beny** – Logistics & Analytics Enthusiast  
 🌍 Location: Valencia, Spain  
 ✉️ Email: belenllatas1@gmail.com  
-🔗 LinkedIn: [www.linkedin.com/in/belénllatasbeny](https://www.linkedin.com/in/belénllatasbeny)
+🔗 LinkedIn: [www.linkedin.com/in/belenllatasbeny](https://www.linkedin.com/in/belenllatasbeny)
 
 This portfolio is part of my goal to build a **hybrid logistics-finance profile**, combining technical knowledge with international experience.
 
@@ -87,7 +87,7 @@ This content is published for educational and professional demonstration purpose
 
 
 You can reach me at: **belenllatas1@gmail.com** 
-Or visit my LinkedIn profile: **www.linkedin.com/in/belénllatasbeny**
+Or visit my LinkedIn profile: **www.linkedin.com/in/belenllatasbeny**
 
 Me puedes contactar en: **belenllatas1@gmail.com**  
-O visitar mi perfil de LinkedIn: **www.linkedin.com/in/belénllatasbeny**
+O visitar mi perfil de LinkedIn: **www.linkedin.com/in/belenllatasbeny**
